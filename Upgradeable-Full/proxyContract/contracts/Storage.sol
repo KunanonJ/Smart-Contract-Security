@@ -1,4 +1,4 @@
-pragma solidity ^0.8.10;
+pragma solidity 0.5.2;
 
 contract Storage {
     mapping (string => uint256) _uintStorage;
