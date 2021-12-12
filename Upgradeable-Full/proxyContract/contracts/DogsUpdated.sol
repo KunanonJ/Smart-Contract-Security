@@ -1,4 +1,4 @@
-pragma solidity ^0.8.10;
+pragma solidity 0.5.2;
 
 import "./Dogs.sol";
 
