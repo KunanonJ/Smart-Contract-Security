@@ -26,6 +26,7 @@ contract Wallet {
             }
         }
         require(owner == true);
+        _;
     }
     //Should initialize the owners list and the limit 
     constructor(address[] memory _owners, uint _limit) {
